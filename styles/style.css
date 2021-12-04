@@ -1,16 +1,29 @@
 .background-container{
     height: 100vh;
-    background-image:(
-        to bottom,
-        rgba(245, 245, 220, 0.014),
-        bergba(245, 245, 220, 0.014)),
-    
-           url("./img/coding_dtvakc.jpg.jpg");
-        background-size: cover;
-        background-repeat: no-repeat;
-        background-position: top;
-        background-attachment: fixed;
-        position:relative;
-      
-    
+    background-image: url("../img/coding_dtvakc.jpg.jpg");
+     background-size: cover;
+     background-repeat: no-repeat;
+     background-position: top;
+     background-attachment: fixed;
+     position:relative; 
 }
+    .portfolio-wrapper--flex{
+        margin-top: 3rem;
+        margin-right: 30rem;
+        width: 70vw;
+        padding: 5rem;
+        display:flex;
+        flex-wrap: wrap;
+    }
+    .portfolio-wrapper--flex> .portfolio__card--flex {
+        margin: 15rem;
+    }
+    .portfolio__card--flex {
+       margin-top: 15rem;
+        width: 16rem;
+    }
+    .portfolio-features{
+        position: fixed;
+        margin : 15rem 3rem;
+        right: 15px;
+    }
